@@ -1,8 +1,8 @@
 # desenhos_de_xpudding
 
-Galeria interativa dos meus desenhos: câmera livre, "fotos", partículas e shader estilo Game Boy (arquivo `desenhos_de_xpudding.lua` aqui e na pasta pai).
-`desenhos.lua` carrega os desenhos gravados na memória do cart (0x04000..0x08000).
+Interactive gallery of my drawings ("desenhos" = drawings): free camera, "photos", particles and a Game Boy-style shader (`desenhos_de_xpudding.lua`, here and in the parent folder).
+`desenhos.lua` loads the drawings stored in the cart memory (0x04000..0x08000).
 
-Arte-fonte: `desenhos.png`, `desenhos.png.kra`, `teste de animação.kra`, `mesa_digitalizadora.png`. `anotações do jogo.txt` tem notas.
+Source artwork: `desenhos.png`, `desenhos.png.kra`, `teste de animação.kra`, `mesa_digitalizadora.png`. `anotações do jogo.txt` holds notes (in Portuguese).
 
-> **Se for deixar o repositório público:** `desenhos.lua` contém e-mail e Twitter no cabeçalho e a licença "Proprietary software". Confirme se é isso que você quer.
+> `desenhos.lua` contains an email and a Twitter handle in its header and declares the license "Proprietary software".

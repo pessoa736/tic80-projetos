@@ -1,32 +1,32 @@
 # projetos_inacabado
 
-Protótipos que parei no meio. Muita coisa aqui é a base de ideias que depois virou outra coisa (por ex. daviSystem -> PuddingSystem -> pudimFOS).
+Prototypes I stopped halfway ("inacabado" = unfinished). A lot of this was the seed of ideas that later became something else (e.g. daviSystem -> PuddingSystem -> pudimFOS).
 
-## Pastas e arquivos
+## Folders and files
 
-| Item | Resumo |
+| Item | Summary |
 |---|---|
-| [`daviSystem/`](daviSystem/) | SO fictício 1 e 2 |
-| [`desenhos_de_xpudding/`](desenhos_de_xpudding/) + `desenhos_de_xpudding.lua` | galeria interativa dos meus desenhos (câmera, partículas, shader Game Boy) |
-| [`metroidvania/`](metroidvania/) | protótipo de metroidvania (menu + jogo) |
-| `rpg.lua` | RPG sobre a PudimEngine v0.4 (991 linhas) |
-| `soul_junp.lua` | plataforma "soul jump" (`lerp` com sinal trocado) |
+| [`daviSystem/`](daviSystem/) | fictional OS 1 and 2 |
+| [`desenhos_de_xpudding/`](desenhos_de_xpudding/) + `desenhos_de_xpudding.lua` | interactive gallery of my drawings (camera, particles, Game Boy shader) |
+| [`metroidvania/`](metroidvania/) | metroidvania prototype (menu + game) |
+| `rpg.lua` | RPG on top of PudimEngine v0.4 (991 lines) |
+| `soul_junp.lua` | "soul jump" platformer (`lerp` with swapped sign) |
 
 ## Carts (`.tic`)
 
-| Cart | O que é |
+| Cart | What it is |
 |---|---|
-| `flap_bird/flap_bird.tic` | Flappy Bird com tubos e 4 frames de sprite |
-| `flapbirdia.tic` | Flappy Bird com IA (raios de visão, histórico, simulação) |
-| `game02.tic` | rotação de sprites via triângulos texturizados (`ttri`) |
-| `gamepj/gamepj.tic` | jogo com salas game/menu/setting, paletas em hexa, botões de mouse |
-| `pc/pc.tic` | esboço de "workspace"/PC com sistema `define` |
-| `pjas.tic` | shooter espacial (nave, balas, câmera, rotação) |
-| `plataform.tic` | platformer com `vec2` e colisão por tile |
-| `rpg/rpg.tic` | RPG top-down com câmera e sprites escalados |
-| `space.tic` | mapa rotacionado com amostragem radial de pixels |
-| `superMarioBros/mauro.tic` | clone de Super Mario ("mauro") com gravidade e colisão por tile |
-| `wall/wall.tic` | barra de tarefas com apps (init/search/calculator) |
-| `daviSystem/daviSystem2/daviSystem2.tic` | cart do daviSystem 2 |
+| `flap_bird/flap_bird.tic` | Flappy Bird with tubes and 4 sprite frames |
+| `flapbirdia.tic` | Flappy Bird with AI (vision rays, history, simulation) |
+| `game02.tic` | sprite rotation through textured triangles (`ttri`) |
+| `gamepj/gamepj.tic` | game with game/menu/setting rooms, hex palettes, mouse buttons |
+| `pc/pc.tic` | sketch of a "workspace"/PC with a `define` system |
+| `pjas.tic` | space shooter (ship, bullets, camera, rotation) |
+| `plataform.tic` | platformer with `vec2` and tile collision |
+| `rpg/rpg.tic` | top-down RPG with camera and scaled sprites |
+| `space.tic` | rotated map with radial pixel sampling |
+| `superMarioBros/mauro.tic` | Super Mario clone ("mauro") with gravity and tile collision |
+| `wall/wall.tic` | taskbar with apps (init/search/calculator) |
+| `daviSystem/daviSystem2/daviSystem2.tic` | daviSystem 2 cart |
 
-> O `rede_neural.tic` estava vazio no HDD e foi removido do repo. As configs `.local/0.80.1344/config.tic` do TIC-80 foram ignoradas.
+> `rede_neural.tic` was empty on the HDD and was removed from the repo. The TIC-80 `.local/0.80.1344/config.tic` configs were ignored.

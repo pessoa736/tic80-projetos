@@ -1,11 +1,11 @@
 # puddingSystem
 
-Área de trabalho fictícia com pastas e arquivos em memória.
+Fictional desktop with folders and files held in memory.
 
-- `PuddingSysteem.lua`: desktop + taskbar + ícones por extensão.
-- `folders.lua`: `createFolder(nome)` com `addFolder` / `addFiles`.
-- `packimagem.lua`: wallpapers como matrizes de cor.
-- `pudimsystem_3.0.lua`: versão 3 (importada de `programs/lua/pudimSystem/`). Usa um módulo `proc` que **não está neste repo**.
+- `PuddingSysteem.lua`: desktop + taskbar + icons by extension.
+- `folders.lua`: `createFolder(name)` with `addFolder` / `addFiles`.
+- `packimagem.lua`: wallpapers as color matrices.
+- `pudimsystem_3.0.lua`: version 3 (imported from `programs/lua/pudimSystem/`). It uses a `proc` module that is **not in this repo**.
 
-Os `package.path` apontam para `G:/Meu Drive/...` e `~/.local/share/com.nesbox.tic/...`; ajuste antes de rodar.
-Veja também: `windows.tic` (protótipo) e `pudimFOS` (versão modular).
+The `package.path` entries point to `G:/Meu Drive/...` and `~/.local/share/com.nesbox.tic/...`; adjust them before running.
+See also: `windows.tic` (prototype) and `pudimFOS` (modular version).

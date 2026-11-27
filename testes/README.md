@@ -1,12 +1,12 @@
 # testes
 
-Testes rápidos de mecânicas.
+Quick mechanics tests ("testes" = tests).
 
-| Teste | O que é |
+| Test | What it is |
 |---|---|
-| `ball.tic` | bolas que andam e batem nas paredes/entre si |
-| `_G.tic` | percorre `_G` recursivamente e imprime tudo com `trace` (explora a API do TIC-80) |
-| `test_bullet.tic` | nave que gira (teclas) e atira balas na direção do ângulo |
-| `test_fogo.tic` | sistema de partículas de fogo com paleta quente |
-| `test_menu.tic` | menu navegável com `btnp` |
-| `TestDeMultiplosArquivos/` | prova de que dá pra usar `require` de outro arquivo ajustando `package.path` |
+| `ball.tic` | balls that move and bounce off walls/each other |
+| `_G.tic` | walks `_G` recursively and prints everything with `trace` (explores the TIC-80 API) |
+| `test_bullet.tic` | ship that rotates (keys) and shoots bullets along its angle |
+| `test_fogo.tic` | fire particle system with a warm palette |
+| `test_menu.tic` | menu navigable with `btnp` |
+| `TestDeMultiplosArquivos/` | proof that you can `require` another file by adjusting `package.path` |

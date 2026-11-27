@@ -1,46 +1,46 @@
 # projetos
 
-## Pastas
+## Folders
 
-| Pasta | Resumo |
+| Folder | Summary |
 |---|---|
-| [`engines/`](engines/) | **PudimEngine v0.5** e o jogo **dreamworld** feito sobre ela |
-| [`3d_engine/`](3d_engine/) | engine 3D experimental (cubo, projeção, faces ordenadas) |
-| [`pudimFOS/`](pudimFOS/) | sistema operacional fictício modular (também tem repo próprio) |
-| [`puddingSystem/`](puddingSystem/) | PuddingSystem: área de trabalho com pastas + `pudimsystem_3.0.lua` |
-| [`pudimSystem backup 30-08-24/`](pudimSystem%20backup%2030-08-24/) | backup anterior das peças do pudimFOS |
-| [`cookie_clicker/`](cookie_clicker/) | clone de Cookie Clicker (cookieTICker) |
-| [`genericRpg/`](genericRpg/) | RPG genérico + arte em Krita |
-| [`bullet_heavem/`](bullet_heavem/) | protótipo de bullet hell (movimento suave) |
-| [`LearnigAL/`](LearnigAL/) | álgebra linear / conjuntos em Lua |
-| [`idle/`](idle/) | esqueleto de projeto + `make.sh` |
-| [`1/`](1/) | esboço de framework de botões/UI |
+| [`engines/`](engines/) | **PudimEngine v0.5** and the **dreamworld** game built on top of it |
+| [`3d_engine/`](3d_engine/) | experimental 3D engine (cube, projection, sorted faces) |
+| [`pudimFOS/`](pudimFOS/) | modular fictional operating system (also has its own repo) |
+| [`puddingSystem/`](puddingSystem/) | PuddingSystem: desktop with folders + `pudimsystem_3.0.lua` |
+| [`pudimSystem backup 30-08-24/`](pudimSystem%20backup%2030-08-24/) | earlier backup of the pudimFOS pieces |
+| [`cookie_clicker/`](cookie_clicker/) | Cookie Clicker clone (cookieTICker) |
+| [`genericRpg/`](genericRpg/) | generic RPG + Krita artwork |
+| [`bullet_heavem/`](bullet_heavem/) | bullet hell prototype (smooth movement) |
+| [`LearnigAL/`](LearnigAL/) | linear algebra / sets in Lua |
+| [`idle/`](idle/) | project skeleton + `make.sh` |
+| [`1/`](1/) | sketch of a button/UI framework |
 
-## Arquivos soltos
+## Loose files
 
-| Arquivo | O que é |
+| File | What it is |
 |---|---|
-| `dinogulugulu.lua` | dino do Chrome com **bot de rede neural** |
-| `rede_neural.lua` | rede feed-forward orientada a objetos |
-| `convertion_filter.lua` | convolução 2D (kernel 3x3) sobre a tela |
-| `pudimSO.py` | protótipo do SO fictício em **Python** |
-| `a.lua` | rascunho de teste (`path.package` deveria ser `package.path`) |
-| `sprs.png` | spritesheet solta |
+| `dinogulugulu.lua` | Chrome dino with a **neural-network bot** |
+| `rede_neural.lua` | object-oriented feed-forward network |
+| `convertion_filter.lua` | 2D convolution (3x3 kernel) over the screen |
+| `pudimSO.py` | prototype of the fictional OS in **Python** |
+| `a.lua` | test scratch (`path.package` should be `package.path`) |
+| `sprs.png` | loose spritesheet |
 
 ## Carts (`.tic`)
 
-| Cart | O que faz |
+| Cart | What it does |
 |---|---|
-| `3dtest.tic` | cubo 3D com `vec3` e rotações (rotxy/rotzy/rotxz). Bug: `vec3.__add` soma `a.z+a.z` |
-| `ia.tic` | rede neural com número variável de camadas ocultas (sigmoid, feedforward) |
-| `ia_imagem.tic` | rede com pesos aleatórios que lê pixels do sprite (`sget`) |
-| `paint.tic` | programa de pintura com o mouse (área 240x136) |
-| `pix.tic` | experimentos com `pix` e conversão para base 4 |
-| `rotate_screem.tic` | rotação por ângulo, `target_angle` |
-| `space2dsimulator.tic` | simulação de gravidade 2D entre corpos circulares |
-| `speed_time.tic` | objetos afetados por uma "velocidade do tempo" (gravidade 9.807, 1 px = 1 cm) |
-| `test_fractal3.tic` | trajetória iterativa do conjunto de Mandelbrot |
-| `waifu2x.tic` | amplia sprite 2x interpolando vizinhos (inspirado no waifu2x) |
-| `windows.tic` | protótipo de desktop com pastas e taskbar (antecessor do PuddingSystem) |
+| `3dtest.tic` | 3D cube with `vec3` and rotations (rotxy/rotzy/rotxz). Bug: `vec3.__add` sums `a.z+a.z` |
+| `ia.tic` | neural network with a variable number of hidden layers (sigmoid, feedforward) |
+| `ia_imagem.tic` | network with random weights that reads sprite pixels (`sget`) |
+| `paint.tic` | mouse paint program (240x136 area) |
+| `pix.tic` | experiments with `pix` and base-4 conversion |
+| `rotate_screem.tic` | angle rotation, `target_angle` |
+| `space2dsimulator.tic` | 2D gravity simulation between circular bodies |
+| `speed_time.tic` | objects affected by a "speed of time" (gravity 9.807, 1 px = 1 cm) |
+| `test_fractal3.tic` | iterative trajectory of the Mandelbrot set |
+| `waifu2x.tic` | upscales a sprite 2x by interpolating neighbors (inspired by waifu2x) |
+| `windows.tic` | desktop prototype with folders and taskbar (predecessor of PuddingSystem) |
 
-> `tic_topos.tic` estava nesta pasta mas é de petet e Xan Drake (voxel flyer da comunidade), então foi retirado.
+> `tic_topos.tic` was in this folder but belongs to petet and Xan Drake (a community voxel flyer), so it was removed.

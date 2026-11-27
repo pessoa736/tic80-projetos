@@ -1,11 +1,11 @@
 # LearnigAL
 
-Estudo de **álgebra linear** em Lua (o "AL" provavelmente é Álgebra Linear). Vem de `~/.local/share/com.nesbox.tic/TIC-80/LearnigAL`.
+**Linear algebra** study in Lua (the "AL" is probably Álgebra Linear). It comes from `~/.local/share/com.nesbox.tic/TIC-80/LearnigAL`.
 
-Ideia: um **conjunto** é um predicado, ou seja, `Set(v)` responde se `v` pertence.
+Idea: a **set** is a predicate, i.e. `Set(v)` answers whether `v` belongs to it.
 
-- `sets.lua`: `SETS.createSet`, `:contains`, `:createSubSet` e os conjuntos `NaturalSET`, `IntegersSET`, `RationalSET` (fração contínua), `IrrationalSET`, `RealSET`, `ComplexSET`.
-- `init.lua`: `R_N(N)` (vetores com N componentes reais), base canônica e um esqueleto de `CreateSpace`.
-- `tic.lua`: redireciona `print` para `trace` para rodar fora da interface do TIC-80 (o `require("tic")` está comentado em `init.lua`).
+- `sets.lua`: `SETS.createSet`, `:contains`, `:createSubSet` and the sets `NaturalSET`, `IntegersSET`, `RationalSET` (continued fraction), `IrrationalSET`, `RealSET`, `ComplexSET`.
+- `init.lua`: `R_N(N)` (vectors with N real components), canonical basis and a `CreateSpace` skeleton.
+- `tic.lua`: redirects `print` to `trace` so it can run outside the TIC-80 interface (the `require("tic")` is commented out in `init.lua`).
 
-**Conhecidos / a corrigir:** `GetCannonBaseRN` não retorna a matriz; em `ComplexSET` o teste `k ~= "a" or k ~= "b"` é sempre verdadeiro (deveria ser `and`); `CreateSpace` está incompleto.
+**Known issues:** `GetCannonBaseRN` does not return the matrix; in `ComplexSET` the test `k ~= "a" or k ~= "b"` is always true (it should be `and`); `CreateSpace` is incomplete.

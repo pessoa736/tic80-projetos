@@ -1,8 +1,10 @@
 # projetos_terminados
 
-| Projeto | O que é |
-|---|---|
-| `cannon_newton.tic` | canhão sobre um planeta; bolas respondem à gravidade (a ideia do "canhão de Newton") |
-| `fractal_de_mandelbrot/fractal_de_mandelbrot.lua` | Mandelbrot navegável: setas movem, botões A/B (4/5) dão zoom; 50 iterações por pixel |
+Finished projects ("terminados" = finished).
 
-> O `.exe` da pasta do fractal não foi incluído.
+| Project | What it is |
+|---|---|
+| `cannon_newton.tic` | cannon on a planet; balls respond to gravity (the "Newton's cannon" idea) |
+| `fractal_de_mandelbrot/fractal_de_mandelbrot.lua` | navigable Mandelbrot: arrows move, buttons A/B (4/5) zoom; 50 iterations per pixel |
+
+> The `.exe` in the fractal folder was not included.

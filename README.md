@@ -1,45 +1,47 @@
 # tic80-projetos
 
-Meus projetos, testes e experimentos feitos no [TIC-80](https://tic80.com) (quase tudo em Lua; um pouco de Python), resgatados do HDD antigo. Vão de matemática (fractais, álgebra linear, redes neurais) a jogos e **sistemas operacionais fictícios** (a minha linha de projeto mais recorrente: PudimSystem, pudimFOS, daviSystem).
+My projects, tests and experiments made in [TIC-80](https://tic80.com) (almost all in Lua, a little Python), recovered from an old HDD. They range from math (fractals, linear algebra, neural networks) to games and **fictional operating systems** (my most recurring project line: PudimSystem, pudimFOS, daviSystem).
 
-## Contexto
+## Context
 
-Acervo de projetos antigos meus (2020 - 2024): jogos, demos e bibliotecas para o TIC-80, feitos na adolescência e preservados como estavam.
+Archive of my old projects (2020 - 2024): games, demos and libraries for TIC-80, made as a teenager and preserved as they were.
 
-## Mapa
+## Map
 
-| Pasta | O que tem |
+| Folder | Contents |
 |---|---|
-| [`libraries/`](libraries/) | libs Lua reutilizáveis: vec2/vec3, matrizes, rede neural, colisão, diálogo, camadas... |
-| [`projetos/`](projetos/) | projetos principais: engines (PudimEngine, dreamworld), engine 3D, pudimFOS/PuddingSystem, cookie clicker, dino com IA, RPG... |
-| [`projetos_inacabado/`](projetos_inacabado/) | protótipos que parei: daviSystem, metroidvania, RPG, flappy bird (com IA), Super Mario, galeria de desenhos... |
-| [`projetos_terminados/`](projetos_terminados/) | cannon_newton e fractal de Mandelbrot |
-| [`testes/`](testes/) | testes pequenos: bolas, bala, fogo, menu, múltiplos arquivos |
-| [`projetos/LearnigAL/`](projetos/LearnigAL/) | estudo de álgebra linear em Lua (conjuntos como predicados) |
+| [`libraries/`](libraries/) | reusable Lua libs: vec2/vec3, matrices, neural network, collision, dialog, layers... |
+| [`projetos/`](projetos/) | main projects: engines (PudimEngine, dreamworld), 3D engine, pudimFOS/PuddingSystem, cookie clicker, dino with AI, RPG... |
+| [`projetos_inacabado/`](projetos_inacabado/) | prototypes I stopped: daviSystem, metroidvania, RPG, flappy bird (with AI), Super Mario, drawings gallery... |
+| [`projetos_terminados/`](projetos_terminados/) | cannon_newton and Mandelbrot fractal |
+| [`testes/`](testes/) | small tests: balls, bullets, fire, menu, multiple files |
+| [`projetos/LearnigAL/`](projetos/LearnigAL/) | linear algebra study in Lua (sets as predicates) |
 
-Cada pasta tem seu próprio README com a lista do que há dentro, e cada `.lua`/`.py`/`.sh` ganhou um bloco `[resumo]` no topo explicando o que faz.
+(Folder names are in Portuguese: `projetos` = projects, `inacabado` = unfinished, `terminados` = finished, `testes` = tests.)
 
-## Fios que ligam tudo
+Each folder has its own README listing what is inside, and each `.lua`/`.py`/`.sh` file has a `[resumo]` summary block at the top explaining what it does (those blocks are in Portuguese).
 
-- **vec2 / lerp** são copiados de projeto em projeto (quase todo arquivo recria o `vec2` com metatable).
-- **Engine própria:** PudimEngine v0.4 -> v0.5 (rpg, dreamworld, daviSystem2).
-- **Sistemas operacionais fictícios:** windows.tic -> daviSystem 1/2 -> PuddingSystem -> pudimFOS (com CPU simulada por coroutines, memória e fila de desenho).
-- **IA/redes neurais** feitas à mão: ia.tic, ia_imagem.tic, rede_neural.lua, flapbirdia.tic, dinogulugulu.lua.
+## Threads running through everything
 
-## Como abrir
+- **vec2 / lerp** are copied from project to project (almost every file recreates `vec2` with a metatable).
+- **Own engine:** PudimEngine v0.4 -> v0.5 (rpg, dreamworld, daviSystem2).
+- **Fictional operating systems:** windows.tic -> daviSystem 1/2 -> PuddingSystem -> pudimFOS (with a CPU simulated through coroutines, memory and a draw queue).
+- **Hand-made AI / neural networks:** ia.tic, ia_imagem.tic, rede_neural.lua, flapbirdia.tic, dinogulugulu.lua.
 
-- Carts `.tic`: abra o TIC-80 na pasta, `load nome.tic` e `run`.
-- Arquivos `.lua`: `load nome.lua` dentro do TIC-80 (cart de arquivo externo).
-- Vários projetos usam `package.path` com caminhos antigos (`G:/Meu Drive/...`, `H:/Meu Drive/...`, `C:/Users/fenan/...`). Ajuste para o seu caminho antes de rodar; os READMEs apontam onde isso acontece.
+## How to open
 
-## Não incluído
+- `.tic` carts: open TIC-80 in the folder, then `load name.tic` and `run`.
+- `.lua` files: `load name.lua` inside TIC-80 (external-file cart).
+- Several projects use `package.path` with old paths (`G:/Meu Drive/...`, `H:/Meu Drive/...`, `C:/Users/fenan/...`). Adjust them to your own path before running; the READMEs point out where this happens.
 
-Carts demo padrão do TIC-80, jogos da comunidade, executáveis `.exe`, e `tic_topos.tic` (autoria de petet e Xan Drake, não é meu).
+## Not included
+
+Default TIC-80 demo carts, community games, `.exe` executables, and `tic_topos.tic` (authored by petet and Xan Drake, not mine).
 
 ## License
 
-[MIT](LICENSE). The metadata header of each cart/script (`title`, `author`, `desc`, `site`, `license`, `version`) is filled in English. Exception: `projetos_inacabado/desenhos_de_xpudding/desenhos.lua` declares its own "Proprietary software" license for the drawings.
+[MIT](LICENSE). The metadata header of each cart/script (`title`, `author`, `desc`, `site`, `license`, `version`) is filled in. Exception: `projetos_inacabado/desenhos_de_xpudding/desenhos.lua` declares its own "Proprietary software" license for the drawings.
 
-## Origem
+## Origin
 
-`.../arquivos de programação/tic-80/appdata` no HDD antigo, mais `~/.local/share/com.nesbox.tic/TIC-80/LearnigAL` e `programs/lua/pudimSystem`.
+`.../arquivos de programação/tic-80/appdata` on the old HDD, plus `~/.local/share/com.nesbox.tic/TIC-80/LearnigAL` and `programs/lua/pudimSystem`.

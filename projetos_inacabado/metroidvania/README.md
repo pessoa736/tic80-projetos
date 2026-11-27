@@ -1,3 +1,3 @@
 # metroidvania
 
-`metroidVania.lua`: protótipo com `vec2`, jogadores, câmera, menu (`init_MENU`) e jogo (`init_GAME`), com `btn`/`btnp` reescritos. Inacabado.
+`metroidVania.lua`: prototype with `vec2`, players, camera, menu (`init_MENU`) and game (`init_GAME`), with rewritten `btn`/`btnp`. Unfinished.

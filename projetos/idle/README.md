@@ -1,3 +1,3 @@
 # idle
 
-Esqueleto de projeto (`main.lua`, com cabeçalho de autor) + `make.sh`, que concatena arquivos em `builds/build.lua` e faz backup datado do build anterior.
+Project skeleton (`main.lua`, with an author header) + `make.sh`, which concatenates files into `builds/build.lua` and makes a dated backup of the previous build.

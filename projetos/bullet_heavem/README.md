@@ -1,4 +1,4 @@
 # bullet_heavem
 
-Protótipo de bullet hell: jogador com aceleração/velocidade suavizadas por `coslerp`, entidades com vida. `include/vec2.lua` é a lib de vetor.
-`main.lua` tem uma flag `biuld`: `false` carrega o vec2 de `~/.local/share/com.nesbox.tic/TIC-80/bullet_heavem/include`, `true` assume build concatenado. O `debug_run.sh` está praticamente vazio.
+Bullet hell prototype: player with acceleration/velocity smoothed by `coslerp`, entities with life. `include/vec2.lua` is the vector lib.
+`main.lua` has a `biuld` flag: `false` loads vec2 from `~/.local/share/com.nesbox.tic/TIC-80/bullet_heavem/include`, `true` assumes a concatenated build. `debug_run.sh` is practically empty.
