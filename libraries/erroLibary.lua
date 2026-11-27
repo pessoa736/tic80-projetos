@@ -1,3 +1,8 @@
+-- [resumo]
+-- erroLibary: tratamento de erro simples com pcall.
+-- check_error(fn, msg_ok, msg_erro) executa fn protegida e acumula as falhas na
+-- tabela local `errors`; return_error(msg) registra um erro manualmente.
+-- ------------------------------------------------------------
 
 local errors={}
 function check_error(functions, msg1, msg2)

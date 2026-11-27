@@ -1,3 +1,7 @@
+-- [resumo]
+-- 3d_engine/math: agrega vec2, vec3, matriz e lerp numa tabela `m`, com atalhos
+-- para cos/sin/tan/max/min/abs, cot/sec/csc, e rotate2d / rotate3d.
+-- ------------------------------------------------------------
 
 local maindir="H:/Meu Drive/tic-80/appdata/"
 function addPath(dir)

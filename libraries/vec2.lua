@@ -1,5 +1,9 @@
 -- author: xpudding
 -- script: lua
+-- [resumo]
+-- vec2: vetor 2D com operadores sobrecarregados (+ - * / etc.) via metatable.
+-- vec2(x, y) -> {x, y}. Base de quase todos os projetos (engines, RPG, bullet_heavem).
+-- ------------------------------------------------------------
 function vec2(x, y) end
 
 local meta = {}

@@ -5,6 +5,10 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- Backup (30/08/2024) do main do PudimSystem, antes da versão pudimFOS.
+-- Usa require dos módulos system.* com caminho em ~/.local/share/com.nesbox.tic/.
+-- ------------------------------------------------------------
 
 package.path = package.path .. ";/home/davi/.local/share/com.nesbox.tic/TIC-80/pudimSystem/?.lua"
 package.path = package.path .. ";/home/davi/.local/share/com.nesbox.tic/TIC-80/pudimSystem/system/?.lua"

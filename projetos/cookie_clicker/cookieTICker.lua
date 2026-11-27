@@ -5,6 +5,12 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- cookieTICker: clone de Cookie Clicker no TIC-80.
+-- Biscoito central clicável (cookieCentral), construções/upgrades/loja (builds_hud,
+-- upgrade_hud, store_hud) e botões com estilo 3D (rect2).
+-- Nota: package.path fixo em G:/Meu Drive/... (caminho do Windows antigo).
+-- ------------------------------------------------------------
 local diretorio = "G:/Meu Drive/tic-80/appdata/projetos/cookie_clicker/?.lua"
 package.path = package.path .. ";" .. diretorio
 

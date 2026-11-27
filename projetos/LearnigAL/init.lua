@@ -1,3 +1,10 @@
+-- [resumo]
+-- LearnigAL: estudo de álgebra linear em Lua (o 'AL' provavelmente é Álgebra Linear).
+-- Constrói conjuntos como predicados (ver sets.lua): R_N(N) = vetores com N
+-- componentes reais. GetCannonBaseRN(N) monta a base canônica (matriz identidade);
+-- CreateSpace é um esqueleto de espaço vetorial ainda incompleto.
+-- Obs.: GetCannonBaseRN não retorna B (falta `return B`).
+-- ------------------------------------------------------------
 --require("tic")
 
 SETS = require("sets")

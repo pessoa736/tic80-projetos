@@ -1,3 +1,7 @@
+-- [resumo]
+-- folders: createFolder(nome) -- pasta como tabela com __meta (nome, extensão,
+-- pai, ícone), addFolder e addFiles. Base do 'sistema de arquivos' do PuddingSystem.
+-- ------------------------------------------------------------
 
 local function createFolder(name)
     return {

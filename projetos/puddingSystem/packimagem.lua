@@ -1,3 +1,7 @@
+-- [resumo]
+-- packimagem: wallpapers do PuddingSystem guardados como matrizes de cores
+-- (imagens.wallpapers[n]). Arquivo só de dados.
+-- ------------------------------------------------------------
 
 imagens = {}
 

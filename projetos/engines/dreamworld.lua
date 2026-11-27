@@ -1,3 +1,8 @@
+-- [resumo]
+-- dreamworld v0.1: jogo feito sobre a PudimEngine 0.5 (game_info no topo).
+-- Mesma base da engine (vec2, paleta, texrect, text_block) + layers,
+-- new_character e o ciclo game:init / game:update.
+-- ------------------------------------------------------------
 game_info={
 	engine =				"pudim engine",
 	author =				"xpudding",

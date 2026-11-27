@@ -5,6 +5,12 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- 3d_engine/main: ponto de entrada da engine 3D experimental.
+-- Cria um cubo (createCube), pré-renderiza (c:prerender), ordena faces e desenha
+-- (c:draw). Define BOOT/OVR/SCN/BDR/TIC. Depende de math, projecao e drawing.
+-- Nota: addPath usa H:/Meu Drive/... (caminho do Windows antigo).
+-- ------------------------------------------------------------
 
 
 maindir="H:/Meu Drive/tic-80/appdata/"

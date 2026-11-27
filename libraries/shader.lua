@@ -5,6 +5,11 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- shader: desenha uma matriz (ver matriz.lua) na tela como pixels com escala,
+-- e define operações entre matrizes (shader.And / shader.Or).
+-- Nota: package.path está fixo em G:/Meu Drive/... (caminho do Windows antigo).
+-- ------------------------------------------------------------
 t=0
 local diretorio = "G:/Meu Drive/tic-80/appdata/projetos/shaders/?.lua"
 package.path = package.path .. ";" .. diretorio

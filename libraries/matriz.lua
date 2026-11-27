@@ -1,3 +1,9 @@
+-- [resumo]
+-- matriz: matrizes com metatables.
+-- mat(i, j [, tabela]) cria uma matriz i x j zerada; __mul implementa o produto
+-- matricial (checa linhasB == colunasA). matT é a transposta. Retorna mat, matT.
+-- Usada pela 3d_engine (projeções) e pelo shader.
+-- ------------------------------------------------------------
 local function mat(i,j,ta)
     local t = ta or {} 
     if type(ta)~="table" then

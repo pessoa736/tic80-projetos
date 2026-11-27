@@ -3,6 +3,11 @@
 -- license:        MIT License
 -- engine version: 0.4
 -- script:         lua
+-- [resumo]
+-- daviSystem 2 (engine v0.4, 'system Operactional engine'): reescrita do daviSystem
+-- sobre a engine vec2/texrect/sprtex, com new_program e system:init/update/draw.
+-- O cart correspondente é daviSystem2.tic na mesma pasta.
+-- ------------------------------------------------------------
 
 m=math
 

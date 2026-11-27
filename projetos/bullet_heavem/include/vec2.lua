@@ -1,5 +1,8 @@
 -- author: xpudding
 -- script: lua
+-- [resumo]
+-- Cópia local da lib vec2 (ver libraries/vec2.lua) para o bullet_heavem.
+-- ------------------------------------------------------------
 function vec2(x, y) end
 
 local meta = {}

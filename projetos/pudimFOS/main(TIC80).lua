@@ -5,6 +5,11 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- pudimFOS (versão TIC-80): ponto de entrada.
+-- Monta a tabela OS com a configuração de display (PVB + escala) e liga os módulos
+-- system/ (PDS desenho, PSPU processamento, PVB vetores, ROMMUPS memória).
+-- ------------------------------------------------------------
 
 --package.path = package.path .. ";/home/davi/.local/share/com.nesbox.tic/TIC-80/pudimSystem/?.lua"
 --package.path = package.path .. ";/home/davi/.local/share/com.nesbox.tic/TIC-80/pudimSystem/system/?.lua"

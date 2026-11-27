@@ -2,6 +2,12 @@
 -- author: game developer
 -- desc:   short description
 -- script: lua
+-- [resumo]
+-- desenhos_de_xpudding (versão em pasta, 595 linhas): sala de exposição de arte
+-- (art_demonstration_room) com câmera, partículas, colisão e visualização dos
+-- desenhos gravados no cart. Arte-fonte em .kra/.png nesta pasta.
+-- Nota: package.path aponta para C:/Users/fenan/AppData/... (Windows antigo).
+-- ------------------------------------------------------------
 
 selfDir = 
  "C:/Users/fenan/AppData/Roaming/com.nesbox.tic/TIC-80/projetos/desenhos_de_xpudding/?.lua"

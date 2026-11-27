@@ -1,3 +1,6 @@
+-- [resumo]
+-- PVB -- Pudim Vector Bidimensional: vetor 2D com operadores via metatable (PVB(x, y)).
+-- ------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------
 ----Pudim vector Bidimencional----Pudim vector Bidimencional----Pudim vector Bidimencional----Pudim vector Bidimencional----
 ----------------------------------------------------------------------------------------------------------------------------

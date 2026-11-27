@@ -2,6 +2,10 @@
 -- author: Xpudding
 -- desc:   turns strings into sprites
 -- script: lua
+-- [resumo]
+-- sprPixStr: desenha sprites 8x8 a partir de strings hexadecimais (sprString).
+-- Usado pelos ícones do daviSystem.
+-- ------------------------------------------------------------
 
 Debug=Debug or false
 

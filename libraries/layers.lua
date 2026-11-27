@@ -5,6 +5,11 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- layers: sistema de camadas de desenho (add/remove por camada).
+-- ATENÇÃO: em layers:add o corpo usa `item`, que não existe no escopo (o
+-- parâmetro se chama `id`) -- parece rascunho não finalizado.
+-- ------------------------------------------------------------
 
 layers={
  add=function(s, layer, id)

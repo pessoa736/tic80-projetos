@@ -5,6 +5,12 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- genericRpg: RPG genérico.
+-- Usa vec2, lerp, check_colision (via fget/mget) e erroLibary; wrappers lpv2
+-- (lerp de vec2), sprv2 e mapv2. A arte fica nos .kra/.png ao lado (sprs, tiles).
+-- Nota: addPath usa H:/Meu Drive/... (caminho do Windows antigo).
+-- ------------------------------------------------------------
 
 errors={}
 function check_error(functions, msg1, msg2)

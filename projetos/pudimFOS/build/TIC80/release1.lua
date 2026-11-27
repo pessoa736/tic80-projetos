@@ -1,3 +1,7 @@
+-- [resumo]
+-- release1: build gerada pelo create_build.sh (arquivos concatenados em um só
+-- cart: main + PDS + PSPU + PVB + ROMMUPS). Não editar; edite main(TIC80).lua e system/.
+-- ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------
 ----Pudim Drawings Sistem----Pudim Drawings Sistem----Pudim Drawings Sistem----Pudim Drawings Sistem----Pudim Drawings Sistem----
 ---------------------------------------------------------------------------------------------------------------------------------

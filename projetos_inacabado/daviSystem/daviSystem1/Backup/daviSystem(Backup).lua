@@ -2,6 +2,9 @@
 -- author: game developer
 -- desc:   short description
 -- script: lua
+-- [resumo]
+-- Backup do daviSystem 1 (versão um pouco mais antiga do daviSystem.lua).
+-- ------------------------------------------------------------
 
 joystick = false
 scamx, scamy = 240, 136

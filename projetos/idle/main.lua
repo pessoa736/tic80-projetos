@@ -1,3 +1,7 @@
+-- [resumo]
+-- idle: esqueleto inicial de projeto (TIC = runtime, BDR = render).
+-- Ainda vazio; o make.sh concatena os arquivos em builds/build.lua.
+-- ------------------------------------------------------------
 -- project:   ;
 -- versão: 0.0;
 -- autor: Davi dos Santos Passos

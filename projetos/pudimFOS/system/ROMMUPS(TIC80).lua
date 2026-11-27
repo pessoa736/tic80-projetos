@@ -1,3 +1,8 @@
+-- [resumo]
+-- ROMMUPS -- Read-Only Memory Manipulation Unit Pudim System: 'armazenamento'.
+-- storage:set_bit / get_bit leem e escrevem na memória do TIC-80 (0x04000..0x0FF7F)
+-- com asserts de limite, show_memory_bank mostra o banco na tela.
+-- ------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----Read-Only Memory Manipulation Unit Pudim System----Read-Only Memory Manipulation Unit Pudim System----Read-Only Memory Manipulation Unit Pudim System----
 -------------------------------------------------------------------------------------------------------------------------------------------------------------

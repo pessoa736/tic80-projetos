@@ -5,6 +5,12 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- dinogulugulu: clone do jogo do dinossauro do Chrome com bot de IA.
+-- Classes dino e Cacto, gravidade, e um 'brain bot' (initBrainBot / botmoviment)
+-- que usa neuralLibary e o objeto mais próximo (ObjetoMaisProximo) para decidir pular.
+-- Nota: addPath usa H:/Meu Drive/... (caminho do Windows antigo).
+-- ------------------------------------------------------------
 
 maindir="H:/Meu Drive/tic-80/appdata/"
 function addPath(dir)

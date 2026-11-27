@@ -1,3 +1,7 @@
+-- [resumo]
+-- math_addiction: estende `math` com lerp, vectorDistance e distanceBivetor
+-- (distância euclidiana entre dois pontos).
+-- ------------------------------------------------------------
 
 m = math
 

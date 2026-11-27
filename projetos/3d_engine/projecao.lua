@@ -1,3 +1,8 @@
+-- [resumo]
+-- 3d_engine/projecao: projeção das faces para a tela.
+-- pj.calcdepth (profundidade média da face, via matrizes), pj.sortfaces
+-- (ordena de trás pra frente -- algoritmo do pintor) e pj.cpo.
+-- ------------------------------------------------------------
 
 local maindir="H:/Meu Drive/tic-80/appdata/"
 function addPath(dir)

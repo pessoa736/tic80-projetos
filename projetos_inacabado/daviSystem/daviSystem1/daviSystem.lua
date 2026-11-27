@@ -2,6 +2,12 @@
 -- author: game developer
 -- desc:   short description
 -- script: lua
+-- [resumo]
+-- daviSystem 1: sistema operacional fictício em TIC-80 (inacabado).
+-- Workspace com wallpaper, janelas (windows), barra de tarefas com data/hora (unix),
+-- menu iniciar e apps registrados por createAPP(app, iconString) -- o ícone é uma
+-- string hexadecimal de 64 caracteres (8x8). Instruções no AddAppOrGame().
+-- ------------------------------------------------------------
 
 joystick = false
 scamx, scamy = 240, 136

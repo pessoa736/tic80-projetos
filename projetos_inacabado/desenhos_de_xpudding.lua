@@ -2,6 +2,11 @@
 -- author: game developer
 -- desc:   short description
 -- script: lua
+-- [resumo]
+-- desenhos_de_xpudding (versão em um arquivo): galeria interativa dos meus desenhos.
+-- Câmera com movimento, fotos (photo), partículas, shader estilo Game Boy (OVR).
+-- Nota: package.path aponta para C:/Users/fenan/AppData/... (Windows antigo).
+-- ------------------------------------------------------------
 
 package.path = package.path .. "C:/Users/fenan/AppData/Roaming/com.nesbox.tic/TIC-80/projetos/desenhos_de_xpudding/?.lua"
 

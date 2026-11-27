@@ -1,4 +1,7 @@
 @echo off
+REM [resumo]
+REM opening_cart.bat: menu para abrir carts no TIC-80 no Windows antigo
+REM (rodar arquivo / ação avançada / lista de comandos). Caminho fixo em C:\Users\fenan.
 cd "C:\Users\fenan\lenguagens_de_programmation\tic-80"
 :menu
 

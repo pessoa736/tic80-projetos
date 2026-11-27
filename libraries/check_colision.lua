@@ -1,5 +1,11 @@
 -- author: xpudding
 -- script: lua
+-- [resumo]
+-- check_colision: detector de colisão por tile.
+-- Guarda uma função de detecção (SetDetectetionFunctions) e converte posição
+-- em pixels para coordenada de tile (//8) em c:check(p, cx, cy, s).
+-- Uso típico: a função de detecção chama fget(mget(x, y), flag) (ver genericRpg).
+-- ------------------------------------------------------------
 
 local c={
   detectetionFunctions = function() end

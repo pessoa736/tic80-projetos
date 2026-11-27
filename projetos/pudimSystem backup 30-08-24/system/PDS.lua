@@ -1,3 +1,7 @@
+-- [resumo]
+-- Backup do PDS (Pudim Drawings System) em 30/08/2024 -- versão com PDS.UI e lista
+-- de desenhos. A versão atual está em projetos/pudimFOS/system/.
+-- ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------
 ----Pudim Drawings Sistem----Pudim Drawings Sistem----Pudim Drawings Sistem----Pudim Drawings Sistem----Pudim Drawings Sistem----
 ---------------------------------------------------------------------------------------------------------------------------------

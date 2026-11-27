@@ -5,6 +5,12 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- pudimSystem 3.0: terceira versão do sistema operacional fictício.
+-- Tabela raiz `r` (home, proc, sys, boot), criação de arquivos/diretórios
+-- em memória (addfi / addf) e módulo `proc` carregado de ~/.local/share/com.nesbox.tic/.
+-- Nota: o módulo `proc` não está neste repositório.
+-- ------------------------------------------------------------
 
 package.path = package.path .. "/home/davi/.local/share/com.nesbox.tic/TIC-80/pudimSystem/?.lua"
 

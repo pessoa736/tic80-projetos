@@ -1,3 +1,7 @@
+-- [resumo]
+-- button: botão de mouse com detecção de clique (Release) e função de desenho
+-- configurável (drawfunction). Usado pelo cookieTICker.
+-- ------------------------------------------------------------
 
 button={
     drawfunction = function(x, y, w, h) end,

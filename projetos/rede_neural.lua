@@ -5,6 +5,11 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- rede_neural: rede feed-forward 'orientada a objetos' em Lua.
+-- new_ia(n_entradas, n_ocultos, n_saidas) monta entrada, pesos, camada oculta e
+-- saída (new_input / new_peso / new_ocult / output) e new_bot cria um agente.
+-- ------------------------------------------------------------
 
 function new_ia(ninp,nocu, nout)
 	local function new_input(size)

@@ -5,6 +5,11 @@
 # license: MIT License (change this to your license of choice)
 # version: 0.1
 # script:  python
+# [resumo]
+# Cart Python do TIC-80 que contém um script de treino de GPT-2 (PyTorch +
+# transformers). Não é um jogo e não roda no TIC-80 (as libs não existem lá);
+# parece um trecho colado de outra fonte (cabeçalho: /mnt/data/simple_gpt.py).
+# ------------------------------------------------------------
 
 # /mnt/data/simple_gpt.py
 import torch

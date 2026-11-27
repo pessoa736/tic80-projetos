@@ -1,3 +1,8 @@
+-- [resumo]
+-- pix: esboço de aritmética (+ - * /) sobre pixels {x, y, c}.
+-- Rascunho: as metamethods estão numa tabela global `vector` (nome copiado do
+-- vec3), então ainda não são aplicadas aos valores criados por Pix().
+-- ------------------------------------------------------------
 
 
 function Pix(x, y, c) end

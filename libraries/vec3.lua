@@ -1,3 +1,7 @@
+-- [resumo]
+-- vec3: vetor 3D com operadores sobrecarregados via metatable. vec3(x, y, z).
+-- Usado pela 3d_engine.
+-- ------------------------------------------------------------
 
 
 function vec3(x, y, z) end

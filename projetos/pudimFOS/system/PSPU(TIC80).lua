@@ -1,3 +1,8 @@
+-- [resumo]
+-- PSPU -- Pudim System Processing Unit: 'CPU' simulada.
+-- Núcleos (cores) com processos escalonados por coroutines; create_routine roda
+-- cada processo por t ciclos, cedendo (yield) entre eles.
+-- ------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------
 ----Pudim system Processing unit----Pudim system Processing unit----Pudim system Processing unit----Pudim system Processing unit----
 ------------------------------------------------------------------------------------------------------------------------------------

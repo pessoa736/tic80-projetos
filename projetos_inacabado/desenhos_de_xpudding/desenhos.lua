@@ -1,3 +1,8 @@
+-- [resumo]
+-- desenhos: lê os desenhos que ficam gravados na memória do cart
+-- (drawings_ADDR = 0x04000 até drawingsRES_ADDR = 0x08000).
+-- Aviso: o cabeçalho traz e-mail/Twitter do autor e licença 'Proprietary software'.
+-- ------------------------------------------------------------
 --[[ 
   title: desenhos.
 

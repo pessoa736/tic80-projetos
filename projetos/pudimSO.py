@@ -5,6 +5,10 @@
 # license: MIT License (change this to your license of choice)
 # version: 0.1
 # script:  python
+# [resumo]
+# pudimSO: protótipo do sistema operacional fictício em Python (TIC-80 suporta Python).
+# Classes window, workspace, Mouse e menu; lerp para animar as janelas.
+# ------------------------------------------------------------
 
 
 scrw: float = 240

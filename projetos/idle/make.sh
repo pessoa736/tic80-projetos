@@ -1,4 +1,8 @@
 #!/bin/bash
+# [resumo]
+# make.sh: concatena os arquivos de FILES em ./builds/build.lua (faz backup datado
+# do build anterior).
+# ------------------------------------------------------------
 
 # Arquivos predefinidos
 FILES=("main.lua") # Substitua pelos nomes dos arquivos reais

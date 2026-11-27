@@ -5,6 +5,11 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- metroidVania: protótipo de metroidvania (inacabado).
+-- vec2, jogadores (plrs), câmera (cam), menu (init_MENU/_MENU) e jogo
+-- (init_GAME/GAME), com btn/btnp reescritos.
+-- ------------------------------------------------------------
 
 --sistem
 

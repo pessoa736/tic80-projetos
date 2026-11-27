@@ -1,3 +1,8 @@
+-- [resumo]
+-- Teste de múltiplos arquivos: ajusta package.path e usa require("libary1")
+-- para provar que o TIC-80 consegue carregar módulos externos.
+-- Nota: o diretório está fixo em /Meu Drive/tic-80/... (ajuste ao seu caminho).
+-- ------------------------------------------------------------
 --trace(package.path)
 diretorio = "/Meu Drive/tic-80/appdata/TestDeMultiplosArquivos/?.lua"
 

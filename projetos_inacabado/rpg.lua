@@ -3,6 +3,11 @@
 -- license:        MIT License
 -- engine version: 0.4
 -- script:         lua
+-- [resumo]
+-- rpg (991 linhas): RPG sobre a PudimEngine v0.4 (inacabado).
+-- Engine embutida no mesmo arquivo (vec2, paleta, texrect, text_block...) + new_npc
+-- e game:init / update / draw. Versão cart: projetos_inacabado/rpg/rpg.tic.
+-- ------------------------------------------------------------
 
 debug=nil
 

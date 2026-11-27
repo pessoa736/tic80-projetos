@@ -1,3 +1,9 @@
+-- [resumo]
+-- neuralLibary: rede neural feed-forward minimalista.
+-- sigmoid(x), generateRandomWeights(linhas, colunas) com pesos em [-1, 1],
+-- NeuralNetwork.new e NeuralNetwork:predict (só inferência; não há treino).
+-- Usada pelo dinogulugulu (bot que joga sozinho).
+-- ------------------------------------------------------------
 -- author:  xpudding
 
 -- Função de ativação - Sigmoide

@@ -1,3 +1,11 @@
+-- [resumo]
+-- sets: conjuntos definidos por um critério (predicado), com metatable.
+-- SETS.createSet(lista | função) -> :contains(v), :createSubSet(pred), e o objeto
+-- é chamável (set(v)). Define os globais NaturalSET, IntegersSET, RationalSET
+-- (fração contínua com tolerância), IrrationalSET, RealSET e ComplexSET.
+-- Obs.: em ComplexSET o teste `k ~= "a" or k ~= "b"` é sempre verdadeiro
+-- (deveria ser `and`), então tabelas nunca são aceitas como complexos.
+-- ------------------------------------------------------------
 local SETS = {}
 
 local Set = {}

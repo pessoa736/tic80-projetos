@@ -1,3 +1,6 @@
+# [resumo]
+# create_build.sh (backup): gera build/release<N>.lua concatenando main + system/*.
+# ------------------------------------------------------------
 
 
 #!/bin/bash

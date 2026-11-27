@@ -5,6 +5,11 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- dialog_box: caixa de diálogo com efeito de digitação (máquina de escrever).
+-- dialog_box:write(texto, view, spd) avança as letras a cada frame; :draw() desenha.
+-- O arquivo traz um TIC() de demonstração no final.
+-- ------------------------------------------------------------
 
 dialog_box={
  t=0,

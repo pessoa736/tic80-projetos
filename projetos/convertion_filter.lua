@@ -5,6 +5,12 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- convertion_filter: convolução 2D (filtro 3x3) sobre a tela.
+-- C_matriz cria matrizes, convection_matriz aplica o kernel `filter` em cada ponto
+-- (sum_matriz_in_one_point). O TIC() desenha círculos animados, copia os pixels
+-- para uma matriz e aplica o filtro -- experimento de processamento de imagem.
+-- ------------------------------------------------------------
 
 function lerp(a,b,t)
 	return a*(1-t)+b*t

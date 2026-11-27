@@ -5,6 +5,12 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- Esboço de framework de interface: fábrica button() (id, pos, size, action) e
+-- filas running_back_end / running_front_end chamáveis via metatable (__call),
+-- com log de debug (__debug__). Rascunho: b.draw usa `pos`/`size` sem o `s.`,
+-- então o desenho do botão ainda não funciona.
+-- ------------------------------------------------------------
 
 __debug__ = true
 

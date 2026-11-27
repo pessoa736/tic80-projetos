@@ -1,3 +1,9 @@
+-- [resumo]
+-- 3d_engine/drawing: primitivas de desenho 2D usadas pela engine 3D.
+-- Linha por interpolação (setline), triângulo e retângulo com cor interpolada,
+-- e convert_vec3_to_vec2 (divisão pela profundidade z).
+-- Nota: addPath usa H:/Meu Drive/... (caminho do Windows antigo).
+-- ------------------------------------------------------------
 
 local maindir="H:/Meu Drive/tic-80/appdata/"
 function addPath(dir)

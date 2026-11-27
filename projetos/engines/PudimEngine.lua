@@ -3,6 +3,12 @@
 -- license:        MIT License
 -- engine version: 0.5
 -- script:         lua
+-- [resumo]
+-- PudimEngine v0.5: minha engine para TIC-80.
+-- vec2, manipulação de paleta (PAL, pal, reset_pal), texturas em retângulos
+-- rotacionáveis (texrect via ttri), rotatespr, efeito glitch (SCN), text_block
+-- (caixas de texto), mapvec2/sprtex, e o ciclo init/update/draw/TIC.
+-- ------------------------------------------------------------
 
 m=math
 

@@ -1,3 +1,6 @@
+-- [resumo]
+-- Teste de múltiplos arquivos: módulo carregado por main.lua via require.
+-- ------------------------------------------------------------
 
 test ={ 
  string = "isso, e um test",

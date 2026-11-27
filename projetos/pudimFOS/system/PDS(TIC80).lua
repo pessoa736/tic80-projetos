@@ -1,3 +1,8 @@
+-- [resumo]
+-- PDS -- Pudim Drawings System: fila de renderização do pudimFOS.
+-- set_palete grava a paleta com poke em 0x03FC0; rect/etc. entram na fila (add_render)
+-- e são desenhados em ordem de camada.
+-- ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------
 ----Pudim Drawings Sistem----Pudim Drawings Sistem----Pudim Drawings Sistem----Pudim Drawings Sistem----Pudim Drawings Sistem----
 ---------------------------------------------------------------------------------------------------------------------------------

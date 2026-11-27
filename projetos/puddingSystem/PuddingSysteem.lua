@@ -5,6 +5,12 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- PuddingSystem: sistema operacional fictício com área de trabalho.
+-- Pastas e arquivos em tabelas (folders.lua), ícones por extensão (spr_extencions),
+-- barra de tarefas (taskbar), BOOT/TIC. Evolução do protótipo windows.tic.
+-- Nota: package.path fixo em G:/Meu Drive/... (caminho do Windows antigo).
+-- ------------------------------------------------------------
 local diretorio = "G:/Meu Drive/tic-80/appdata/projetos/puddingSystem/?.lua"
 package.path = package.path .. ";" .. diretorio
 

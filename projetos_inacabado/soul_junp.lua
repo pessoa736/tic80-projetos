@@ -2,6 +2,10 @@
 -- author: xpudding
 -- desc:   short description
 -- script: lua
+-- [resumo]
+-- soul_junp ('soul jump'): protótipo de plataforma com PlayerCrate e entidades.
+-- Obs.: lerp está com sinal trocado -- a*(t-1)+b*t em vez de a*(1-t)+b*t.
+-- ------------------------------------------------------------
 
 cell = 8
 

@@ -1,3 +1,10 @@
+-- [resumo]
+-- bullet_heavem: protótipo de 'bullet hell' (nome com typo de bullet heaven).
+-- New_entity / New_player com aceleração, velocidade e movimento suavizado por
+-- coslerp (interpolação por cosseno), entrada por btn_bin. Muda a paleta via poke.
+-- Com `biuld = false` carrega vec2 de ~/.local/share/com.nesbox.tic/...;
+-- com true assume que vec2 já foi concatenado no build.
+-- ------------------------------------------------------------
 biuld = false
 
 

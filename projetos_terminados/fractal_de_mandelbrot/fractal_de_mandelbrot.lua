@@ -5,6 +5,10 @@
 -- license: MIT License (change this to your license of choice)
 -- version: 0.1
 -- script:  lua
+-- [resumo]
+-- Fractal de Mandelbrot navegável.
+-- Setas movem a câmera, botões A/B (4/5) dão zoom in/out; 50 iterações por pixel.
+-- ------------------------------------------------------------
 
 zoom=0.0068
 interation=50
