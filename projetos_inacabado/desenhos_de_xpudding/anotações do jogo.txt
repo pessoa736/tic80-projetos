@@ -1,0 +1,6 @@
+o jogo tem que ser:
+ -preto e branco.
+ -ter desenhos feito por mim sem direito de autor.
+ -npc para conversar.
+ -movimentação de rpg2d (quando n tive olhando um desenho).
+
