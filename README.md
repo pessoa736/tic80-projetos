@@ -32,6 +32,10 @@ Cada pasta tem seu próprio README com a lista do que há dentro, e cada `.lua`/
 
 Carts demo padrão do TIC-80, jogos da comunidade, executáveis `.exe`, e `tic_topos.tic` (autoria de petet e Xan Drake, não é meu).
 
+## License
+
+[MIT](LICENSE). The metadata header of each cart/script (`title`, `author`, `desc`, `site`, `license`, `version`) is filled in English. Exception: `projetos_inacabado/desenhos_de_xpudding/desenhos.lua` declares its own "Proprietary software" license for the drawings.
+
 ## Origem
 
 `.../arquivos de programação/tic-80/appdata` no HDD antigo, mais `~/.local/share/com.nesbox.tic/TIC-80/LearnigAL` e `programs/lua/pudimSystem`.

@@ -1,7 +1,10 @@
--- title:  game title
--- author: game developer
--- desc:   short description
--- script: lua
+-- title:   daviSystem (Backup)
+-- author:  xpudding
+-- desc:    Older version of daviSystem, a fictional operating system
+-- site:    https://github.com/pessoa736/tic80-projetos
+-- license: MIT License
+-- version: 0.1
+-- script:  lua
 -- [resumo]
 -- Backup do daviSystem 1 (versão um pouco mais antiga do daviSystem.lua).
 -- ------------------------------------------------------------

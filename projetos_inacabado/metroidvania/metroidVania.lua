@@ -1,8 +1,8 @@
--- title:   game title
--- author:  game developer, email, etc.
--- desc:    short description
--- site:    website link
--- license: MIT License (change this to your license of choice)
+-- title:   Metroidvania
+-- author:  xpudding
+-- desc:    Metroidvania prototype with menu and game states
+-- site:    https://github.com/pessoa736/tic80-projetos
+-- license: MIT License
 -- version: 0.1
 -- script:  lua
 -- [resumo]

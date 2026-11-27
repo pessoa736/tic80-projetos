@@ -1,7 +1,10 @@
--- title:  soul junp
--- author: xpudding
--- desc:   short description
--- script: lua
+-- title:   Soul Jump
+-- author:  xpudding
+-- desc:    Platformer prototype
+-- site:    https://github.com/pessoa736/tic80-projetos
+-- license: MIT License
+-- version: 0.1
+-- script:  lua
 -- [resumo]
 -- soul_junp ('soul jump'): protótipo de plataforma com PlayerCrate e entidades.
 -- Obs.: lerp está com sinal trocado -- a*(t-1)+b*t em vez de a*(1-t)+b*t.

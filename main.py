@@ -1,8 +1,8 @@
-# title:   game title
-# author:  game developers, email, etc.
-# desc:    short description
-# site:    website link
-# license: MIT License (change this to your license of choice)
+# title:   GPT-2 Training Script
+# author:  xpudding
+# desc:    GPT-2 training snippet inside a Python cart (not a game)
+# site:    https://github.com/pessoa736/tic80-projetos
+# license: MIT License
 # version: 0.1
 # script:  python
 # [resumo]

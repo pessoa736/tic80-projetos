@@ -1,8 +1,8 @@
-	-- title:   game title
--- author:  game developer, email, etc.
--- desc:    short description
--- site:    website link
--- license: MIT License (change this to your license of choice)
+-- title:   PudimSystem 3.0
+-- author:  xpudding
+-- desc:    Third version of the fictional operating system
+-- site:    https://github.com/pessoa736/tic80-projetos
+-- license: MIT License
 -- version: 0.1
 -- script:  lua
 -- [resumo]

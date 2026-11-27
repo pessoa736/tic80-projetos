@@ -1,7 +1,10 @@
--- title:  game title
--- author: game developer
--- desc:   short description
--- script: lua
+-- title:   Xpudding's Drawings
+-- author:  xpudding
+-- desc:    Interactive gallery of my drawings with camera, particles and a Game Boy shader
+-- site:    https://github.com/pessoa736/tic80-projetos
+-- license: MIT License
+-- version: 0.1
+-- script:  lua
 -- [resumo]
 -- desenhos_de_xpudding (versão em um arquivo): galeria interativa dos meus desenhos.
 -- Câmera com movimento, fotos (photo), partículas, shader estilo Game Boy (OVR).

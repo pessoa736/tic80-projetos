@@ -1,7 +1,10 @@
--- title:  game title
--- author: game developer
--- desc:   short description
--- script: lua
+-- title:   daviSystem
+-- author:  xpudding
+-- desc:    Fictional operating system with windows, taskbar and start menu
+-- site:    https://github.com/pessoa736/tic80-projetos
+-- license: MIT License
+-- version: 0.1
+-- script:  lua
 -- [resumo]
 -- daviSystem 1: sistema operacional fictício em TIC-80 (inacabado).
 -- Workspace com wallpaper, janelas (windows), barra de tarefas com data/hora (unix),

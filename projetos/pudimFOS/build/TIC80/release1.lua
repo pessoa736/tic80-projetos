@@ -317,10 +317,10 @@ if debug_TIC80 and not debug_lua then
 end
 
 -- title:   PudimSystem
--- author:  Xpudding
--- desc:    short description
--- site:    website link
--- license: MIT License (change this to your license of choice)
+-- author:  xpudding
+-- desc:    Fictional operating system made of modular pieces (build)
+-- site:    https://github.com/pessoa736/tic80-projetos
+-- license: MIT License
 -- version: 0.1
 -- script:  lua
 

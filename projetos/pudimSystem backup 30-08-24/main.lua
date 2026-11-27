@@ -1,8 +1,8 @@
 -- title:   PudimSystem
--- author:  Xpudding
--- desc:    short description
--- site:    website link
--- license: MIT License (change this to your license of choice)
+-- author:  xpudding
+-- desc:    Fictional operating system made of modular pieces (backup of 2024-08-30)
+-- site:    https://github.com/pessoa736/tic80-projetos
+-- license: MIT License
 -- version: 0.1
 -- script:  lua
 -- [resumo]
