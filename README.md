@@ -19,5 +19,6 @@ Meus projetos, testes e experimentos feitos no [TIC-80](https://tic80.com) (prin
 
 ## Notas
 
+- `projetos/LearnigAL/` veio de `~/.local/share/com.nesbox.tic/TIC-80/` (conjuntos/álgebra em Lua) e `projetos/puddingSystem/pudimsystem_3.0.lua` de `programs/lua/pudimSystem/`.
 - `projetos/pudimFOS/` também tem repo próprio: https://github.com/pessoa736/pudimFOS
 - Não incluídos: carts demo padrão do TIC-80, jogos da comunidade, executáveis `.exe`.
