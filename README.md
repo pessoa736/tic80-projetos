@@ -2,27 +2,9 @@
 
 Meus projetos, testes e experimentos feitos no [TIC-80](https://tic80.com) (quase tudo em Lua; um pouco de Python), resgatados do HDD antigo. Vão de matemática (fractais, álgebra linear, redes neurais) a jogos e **sistemas operacionais fictícios** (a minha linha de projeto mais recorrente: PudimSystem, pudimFOS, daviSystem).
 
-## Contexto: acervo histórico
+## Contexto
 
-Este repositório é um **arquivo de projetos antigos**: jogos, demos, bibliotecas e experimentos para o TIC-80, feitos na minha adolescência, época em que dediquei muito tempo a isso. O código reflete esse período (estilo e nomes inconsistentes, protótipos inacabados, bugs conhecidos, caminhos do Windows antigo) e foi **preservado como estava**: a importação só acrescentou documentação e metadados, sem alterar a lógica.
-
-### Período coberto
-
-Intervalo pelas datas de **última modificação (mtime)** dos 108 arquivos importados do HDD, lidas do sistema de arquivos:
-
-| | Data | Arquivo |
-|---|---|---|
-| Mais antigo | **2020-09-19** | `testes/test_fogo.tic` |
-| Mais recente | **2024-11-21** | `projetos/idle/main.lua` e `make.sh` |
-
-Ou seja, de **set/2020 a nov/2024** (cerca de 4 anos e 2 meses). Arquivos por ano: 2020: 1, 2021: 9, 2022: 24, 2023: 3, 2024: 71.
-
-Ressalvas técnicas sobre essas datas:
-
-- **A data de criação não é recuperável.** No HDD, o birth time de todos os arquivos é 2026-11-14 (dia da migração para este disco). Como criação ≤ modificação, 2020-09-19 é só um limite superior para o primeiro arquivo; ele pode ser anterior.
-- **Há uma modificação em lote.** 34 arquivos têm o mesmo mtime (2024-03-15, 22:39-22:40), de uma operação em massa de causa não identificada. A autoria real desses é anterior a essa data.
-- **Exceção recente:** `projetos/LearnigAL/` (jun/2026) vem do TIC-80 instalado hoje e não faz parte do acervo da adolescência. Já `puddingSystem/pudimsystem_3.0.lua` (ago/2024) faz.
-- **O histórico do git deste repo não reflete a autoria:** ele começa na importação (2026-11-27). Para o pudimFOS, o histórico original (2024-08-30 a 2024-10-03) está no [repo dele](https://github.com/pessoa736/pudimFOS).
+Acervo de projetos antigos meus (2020 - 2024): jogos, demos e bibliotecas para o TIC-80, feitos na adolescência e preservados como estavam.
 
 ## Mapa
 
