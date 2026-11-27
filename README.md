@@ -34,10 +34,6 @@ Each folder has its own README listing what is inside, and each `.lua`/`.py`/`.s
 - `.lua` files: `load name.lua` inside TIC-80 (external-file cart).
 - Several projects use `package.path` with old paths (`G:/Meu Drive/...`, `H:/Meu Drive/...`, `C:/Users/fenan/...`). Adjust them to your own path before running; the READMEs point out where this happens.
 
-## Not included
-
-Default TIC-80 demo carts, community games, `.exe` executables, and `tic_topos.tic` (authored by petet and Xan Drake, not mine).
-
 ## License
 
 [MIT](LICENSE). The metadata header of each cart/script (`title`, `author`, `desc`, `site`, `license`, `version`) is filled in. Exception: `projetos_inacabado/desenhos_de_xpudding/desenhos.lua` declares its own "Proprietary software" license for the drawings.
